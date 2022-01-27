@@ -2,11 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "start": "node ./dest/app.js",
     "start:dev": "ts-node ./src/app.ts",
-    "start:watch": "nodemon ./src/app.ts"
+    "start:watch": "nodemon ./src/app.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

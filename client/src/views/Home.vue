@@ -87,7 +87,7 @@
             <textarea
               rows="3"
               class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-              placeholder="В свободной форме Вы можете рассказать, чем Вы занимаетесь и почему Вы хотите попасть в команду  и зачем Вам инвестиции"
+              placeholder="В свободной форме расскажите, чем занимаетесь, почему и зачем хотите попасть в инвестиционную команду и зачем Вам инвестиции в целом?"
               v-model="form.text"
             ></textarea>
           </div>
