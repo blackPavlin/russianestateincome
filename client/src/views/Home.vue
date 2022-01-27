@@ -7,8 +7,8 @@
       v-if="showMessage"
     >
       <div class="text-center font-medium text-gray-900">
-        Мы приняли Вашу заявку к рассмотрению, наш менеджер скоро свяжется с
-        Вами в ближайшее время
+        Мы приняли Вашу заявку к рассмотрению! Наш менеджер свяжется с Вами в
+        ближайшее время.
       </div>
     </div>
 
@@ -115,7 +115,7 @@ import client from "@/plugins/axios";
 export default defineComponent({
   name: "Home",
   setup() {
-    const showMessage = ref(false);
+    const showMessage = ref(true);
 
     const form = reactive({
       name: "",
