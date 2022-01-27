@@ -6,11 +6,6 @@ const routes: RouteRecordRaw[] = [
     name: "Home",
     component: () => import("@/views/Home.vue"),
   },
-  {
-    path: "/form",
-    name: "Form",
-    component: () => import("@/views/Form.vue"),
-  },
 ];
 
 const router = createRouter({
