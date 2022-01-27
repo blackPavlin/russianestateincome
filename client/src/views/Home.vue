@@ -115,7 +115,7 @@ import client from "@/plugins/axios";
 export default defineComponent({
   name: "Home",
   setup() {
-    const showMessage = ref(true);
+    const showMessage = ref(false);
 
     const form = reactive({
       name: "",
