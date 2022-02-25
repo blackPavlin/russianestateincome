@@ -40,7 +40,7 @@
           <div
             class="mt-5 text-xl font-medium text-gray-900 flex justify-between"
           >
-            <span>Всего интвестированно: </span>
+            <span>Всего инвестировано: </span>
             <span class="font-bold">{{ totalInvestment.toFixed(0) }}</span>
           </div>
 
