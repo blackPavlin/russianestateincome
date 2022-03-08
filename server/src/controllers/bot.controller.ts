@@ -23,4 +23,6 @@ export default (
 
         reply.code(200);
     });
+
+    next();
 }
