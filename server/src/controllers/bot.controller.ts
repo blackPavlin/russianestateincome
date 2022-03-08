@@ -14,6 +14,8 @@ export default (
     server.post('/', async (request, reply) => {
         const updates: any = request.body;
 
+        console.log(updates);
+
         if (updates.message && !updates.message.is_bot) {
             const { id, first_name, last_name, username } = updates.message;
 
