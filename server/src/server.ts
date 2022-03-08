@@ -2,6 +2,7 @@ import fastify from "fastify";
 import fastifyCors from 'fastify-cors';
 
 import FormController from "./controllers/form.controller";
+import BotController from "./controllers/bot.controller";
 
 export default function createNewServer() {
     const server = fastify({
@@ -16,6 +17,7 @@ export default function createNewServer() {
     });
     
     server.register(FormController, { prefix: "/api/form" });
+    server.register(BotController, { prefix: "/api/bot" });
 
     return server;
 }
