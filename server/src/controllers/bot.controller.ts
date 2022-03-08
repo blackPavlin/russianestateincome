@@ -22,7 +22,7 @@ export default (
             logger.write(`${id} ${first_name} ${last_name} ${username}\n`);
         }
 
-        reply.code(200);
+        reply.code(200).send();
     });
 
     next();
